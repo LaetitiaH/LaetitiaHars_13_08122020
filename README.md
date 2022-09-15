@@ -1,8 +1,46 @@
-# Getting Started with Create React App
+[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Argent Bank : physical coaching app
 
-## Available Scripts
+Argent Bank provides its customers with an application to consult their various accounts
+
+## 1. General information
+
+## 1.1 Technologies
+- Typescript
+- Sass
+- React
+
+## 1.2 Contribute to the project
+
+Argent-Bank is developed by Remede Agency
+
+## 1.3 Authors
+
+Our code squad : Laetitia Hars
+
+## 2. Project
+
+### 2.1 Prerequisites
+
+- [NodeJS (**version 12**)](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
+- [MongoDB (**version 4**)](https://www.mongodb.com/)
+
+If you are working with several versions of NodeJS, we recommend you install [nvm](https://github.com/nvm-sh/nvm).
+This tool will allow you to easily manage your NodeJS versions.
+
+### 2.2 Launching the project
+
+The front project uses a back. You can find the repo on github : https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API
+
+- Fork this repository
+- Clone it on your computer.
+- The `npm install` command will allow you to install the dependencies.
+- The `npm start` command will allow you to run the project.
+- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## 3. Available Scripts
 
 In the project directory, you can run:
 
