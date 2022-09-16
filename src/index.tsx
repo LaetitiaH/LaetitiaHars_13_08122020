@@ -12,6 +12,7 @@ import store from "./utils/store";
 import { QueryClient, QueryClientProvider } from "react-query";
 import ProtectedRoute from "./utils/router/protected-route";
 import Profile from "./pages/Profile";
+import RedirectRoute from "./utils/router/redirect-route";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -27,7 +28,10 @@ root.render(
           <Header />
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/signIn" element={<SignIn />}></Route>
+            <Route
+              path="/signIn"
+              element={<RedirectRoute component={SignIn} />}
+            ></Route>
             <Route
               path="/profile"
               element={<ProtectedRoute component={Profile} />}
